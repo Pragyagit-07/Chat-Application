@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Chat Room List -->
+        <div id="room-list" class="room-list">
+            <h2>Chat Rooms</h2>
+            <ul id="rooms"></ul>
+            <button id="create-room-btn">Create Room</button>
+        </div>
+
+        <!-- Chat Room Interface -->
+        <div id="chat-room" class="chat-room">
+            <div id="message-list" class="message-list"  style="max-height: 400px; overflow-y: auto;" ></div>
+            <div id="chat-input">
+                <input type="text" id="message-input" placeholder="Type a message..." />
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+
+        <!-- Username Modal -->
+        <div id="username-modal" class="modal">
+            <div class="modal-content">
+                <label for="username">Choose a Username:</label>
+                <input type="text" id="username" />
+                <button id="set-username-btn">Set Username</button>
+            </div>
+        </div>
+    </div>
+  
+    <script src="app.js"></script>
+    
+    
+
+</body>
+</html>
