@@ -23,6 +23,8 @@
 ### Clone the repository
 ```bash
 git clone https://github.com/Pragyagit-07/Chat-Application.git
+```
+
 
 ### How to run
 
